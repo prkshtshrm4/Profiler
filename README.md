@@ -19,7 +19,7 @@ Profiler is a React Native application that utilizes open APIs to guess the age,
 
 
 ## Demo
-
+- .apk can found in apk folder.
 ![Profiler Demo](./demo.gif)
 
 ## Technologies Used
