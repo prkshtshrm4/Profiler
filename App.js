@@ -4,7 +4,6 @@ import { NavigationContainer } from '@react-navigation/native';
 import { AuthProvider } from './src/contexts';
 import { AuthNavigator } from './src/routes';
 import { COLOR_PALETTE } from './src/themes';
-import Home from './src/screens/home';
 
 
 const App = () => {
@@ -30,7 +29,10 @@ const App = () => {
     backgroundColor={COLOR_PALETTE.primary1}
     barStyle="light-content"
   />
-     <Home />
+      <NavigationContainer>
+        <StatusBar barStyle={'light-content'} />
+        <AuthNavigator />
+      </NavigationContainer>
     </AuthProvider>
   );
   }
