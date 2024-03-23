@@ -1,0 +1,22 @@
+export const COLOR_PALETTE = {
+    primary:'#006738',
+    primary1:'#E04F4F',
+    primary2:'#368CDC',
+    primary3:'#F2F2F4',
+    secondary:'#dfffc0',
+    secondary1:'#000000',
+    secondary2:'#E3E3E3',
+    secondary3:'#FFFFFF',
+    grayShadeLight:'#E2E2E2',
+    grayShadeMedium:'#C5C5C5',
+    grayShadeDark:'#9A9A9A',
+    grayShadeDarker:'#4E4E4E',
+    warning:'#CEAD4A',
+    error:'#EF4646',
+    information:'#699CFF',
+    successLight:'#59B38D',
+    successDark:'#269254',
+    accentgray:'#3d3d3d',
+    accentblue:'#accbff',
+
+}
